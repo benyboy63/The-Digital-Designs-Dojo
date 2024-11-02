@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!-- Opening Tags -->
+<html lang="en" dir="ltr">
+<head>
+
+    <!-- Meta and Head Tags (boost SEO)-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Digital Designs Dojo</title>
+    <meta name="description" content="The Digital Designs Dojo is a website that offers web development services to small businesses and individuals. We offer a variety of packages to fit your needs!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- boxicons -->
+
+<link rel="stylesheet"
+href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+ <!-- CSS and JS style sheets -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    
+       <!-- Navigation Bar -->
+       <ul class="sidebar">
+        <li onclick="closeSidebar()">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </a>
+        </li>
+        <li><a href="#" class="sidebarnav" id="navtitle">The Digital Designs Dojo</a></li>
+        <li><a href="#" class="sidebarnav">Services</a></li>
+        <li><a href="#" class="sidebarnav">About Me</a></li>
+        <li><a href="#" class="sidebarnav">My Work</a></li>
+        <li><a href="#" class="sidebarnav">Contact Me</a></li>
+    </ul>
+    
+    <nav>
+        <ul>
+            <li><a href="#" class="firstchild">The Digital Designs Dojo</a></li>
+            <li><a href="#" class="hideSidebar">Services</a></li>
+            <li><a href="#" class="hideSidebar">About Me</a></li>
+            <li><a href="#" class="hideSidebar">My Work</a></li>
+            <li><a href="#" class="hideSidebar">Contact Me</a></li>
+            <li onclick="showSidebar()">
+                <a href="#" class="menuicon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="h1Container" alt="background image">
+        <div>
+            <h1>The Digital Designs Dojo</h1>
+    </div>
+    </div>
+</div>
+</body>
+
+
+<section id="contactMeForm">
+    <form
+        action="https://formspree.io/f/mwpklobk"
+        method="POST"
+        enctype="multipart/form-data"
+    >
+        <fieldset>
+            <legend>Contact Me</legend>
+            <label for="FullName">Your Name</label>
+            <input type="text" name="FullName" id="FullName" required>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone">
+            <label for="message">Your Message:</label>
+            <textarea name="msg" id="msg" required></textarea>
+            <div class="checks">
+                <input type="checkbox" name="copyEmail" id="copyEmail">
+                <label for="copyEmail">Send me a copy to my email</label>
+            </div>
+            <input type="submit" id="submit" value="Contact Me">
+        </fieldset>
+    </form>
+    <figure class="snip1157">
+        <blockquote><strong>Alex Graffagnino</strong>:  "Ben did an incredible job! He understood my vision perfectly and delivered a professional, stunning website that truly represents my business. Highly recommended!"</blockquote>
+        </blockquote>
+        <img src="images/Graff SHirtless.webp" alt="sq-sample3" />  
+    </figure>
+</section>
+
+  
+        <div>
+            <!-- Dojo DOORS PLUS CSS -->
+            
+            <div class="DojoDoors" id="dojoDoors">
+                <img class="door1" src="images/DojoDoors.webp" alt="Dojo Doors">
+                <img class="door2" src="images/DojoDoors.webp" alt="Dojo Doors">
+                
+                <!-- Opening Call to Action -->
+                <div id="callToAction">
+                    <img src="images/ScreenShot of SP.webp" alt="Previous Websites done" class="GraffsWebImg">
+                    <h2>@Southpaw Athletics: All rights reserved</h2>
+
+                    <!-- SIGN UP BUTTON WILL ALSO BE HERE -->
+                </div>
+            </div>
+        </div > <!-- Dojo Doors with CSS animations -->
+            
+    <div id="popupMessage" class="popup" style="display:none;">
+            <a onclick="closePopup()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+            </svg>
+            </a>
+            <section id="popUpForm">
+                <section aria-labelledby="contact-form-title">
+                    <form
+                        action="https://formspree.io/f/mwpklobk"
+                        method="POST"
+                        enctype="multipart/form-data"
+                        aria-labelledby="contact-form-title"
+                    >
+                        <fieldset>
+                            <legend>Contact Me</legend>
+                            
+                            <!-- Name Field -->
+                            <label for="FullName">Your Name</label>
+                            <input 
+                                type="text" 
+                                name="FullName" 
+                                id="FullName" 
+                                required 
+                                autocomplete="name" 
+                                aria-required="true" 
+                                tabindex="1" 
+                            >
+                            
+                            <!-- Email Field -->
+                            <label for="Email">Email:</label>
+                            <input 
+                                type="email" 
+                                name="Email" 
+                                id="Email" 
+                                required 
+                                autocomplete="email" 
+                                aria-required="true" 
+                                tabindex="2" 
+                            >
+                            
+                            <!-- Phone Field -->
+                            <label for="phone">Phone Number:</label>
+                            <input 
+                                type="tel" 
+                                name="phone" 
+                                id="phone" 
+                                autocomplete="tel" 
+                                aria-describedby="phone-desc" 
+                                tabindex="3" 
+                            >
+                            <span id="phone-desc" class="visually-hidden">
+                               
+                            </span>
+                            
+                            <!-- Message Field -->
+                            <label for="msg">Your Message:</label>
+                            <textarea 
+                                name="msg" 
+                                id="msg" 
+                                required 
+                                aria-required="true" 
+                                tabindex="4" 
+                                autocomplete="on" 
+                            ></textarea>
+                            
+                            <!-- Submit Button -->
+                            <input 
+                                type="submit" 
+                                id="submit" 
+                                value="Contact Me" 
+                                tabindex="5" 
+                                aria-label="Submit Contact Form" 
+                            >
+                        </fieldset>
+                    </form>
+                </section>
+                
+        
+        </div>
+
+
+<!-- Footer for the Website -->
+<section id="footerSection" class="footer">
+    <div class="footer-content">
+    
+    
+
+    <div class="footer-content">
+        <h4>Myself</h4>
+        <li><a href="#">My Work</a></li>
+        <li><a href="tel:18603675250">Call Me</a></li>
+        <li><a href="mailto:benwilliams796@gmail.com">Email Me</a></li>
+        <li><a href="sms:+18603675250">Text Me</a></li>
+    </div>
+
+    <div class="footer-content">
+        <h4>Legal</h4>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Cookies Policy</a></li>
+    </div>
+
+</section>
+
+
+
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = "flex";
+    }
+
+    function closeSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = "none";
+    }
+
+    // Ensure the sidebar is hidden on page load
+    document.addEventListener('DOMContentLoaded', () => {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = "none";
+    });
+
+    function showPopup() {
+        const popup = document.getElementById('popupMessage');
+        setTimeout(() => {
+            popup.style.display = 'block';
+        }, 5000); // 5000 milliseconds = 5 seconds
+        window.removeEventListener('scroll', showPopup); // Remove the event listener after showing the popup
+    }
+
+    function closePopup() {
+        const popup = document.getElementById('popupMessage');
+        popup.style.display = 'none';
+    }
+
+    window.addEventListener('scroll', showPopup);
+
+    function revealCallToAction() {
+        const dojoDoors = document.getElementById('dojoDoors');
+        const rect = dojoDoors.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+        if (rect.top <= windowHeight && rect.bottom >= 0) {
+            setTimeout(() => {
+                dojoDoors.classList.add('reveal');
+            }, 1000); // 1000 milliseconds = 1 second
+            window.removeEventListener('scroll', revealCallToAction); // Remove the event listener after revealing
+        }
+    }
+
+    window.addEventListener('scroll', revealCallToAction);
+    document.querySelector('#contactMeForm form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        const form = event.target;
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                form.reset();
+                alert('Thank you for your message! We will get back to you soon.');
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        alert(data["errors"].map(error => error["message"]).join(", "));
+                    } else {
+                        alert('Oops! There was a problem submitting your form');
+                    }
+                });
+            }
+        }).catch(error => {
+            alert('Oops! There was a problem submitting your form');
+        });
+    });
+</script>
+<!-- Closing tags -->
+
+</body>
+</html>
